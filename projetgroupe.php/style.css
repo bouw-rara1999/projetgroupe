@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav {
+  max-width: 1240px;
+  background-color: rgb(247, 243, 243);
+  height: 96px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-right: 60px;
+  list-style: none;
+}
+
+h1 {
+  color: rgb(255, 191, 0);
+}
